@@ -1,7 +1,6 @@
 import * as assert from 'assert';
 import { IP } from '../src';
 
-
 describe('test ip', () => {
   test('Should to number/string', async () => {
     assert(IP.toString(3159215739) === '123.206.77.188');
